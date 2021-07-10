@@ -4,45 +4,18 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - raycasting",
-      "request": "launch",
-      "mainClass": "frc.lib.math.path_finding.raycasting",
-      "projectName": "PEACCE2020.1"
-    },
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - RayCasting",
-      "request": "launch",
-      "mainClass": "frc.lib.math.path_finding.RayCasting",
-      "projectName": "PEACCE2020.1"
-    },
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - CubicSplineInterpolate",
-      "request": "launch",
-      "mainClass": "frc.lib.math.CubicSplineInterpolate",
-      "projectName": "PEACCE2020.1"
-    },
-    {
-      "type": "java",
-      "name": "CodeLens (Launch) - Test",
-      "request": "launch",
-      "mainClass": "frc.lib.math.Test",
-      "projectName": "PEACCE2020.1"
-    },
+
     {
       "type": "wpilib",
       "name": "WPILib Desktop Debug",
       "request": "launch",
-      "desktop": true
+      "desktop": true,
     },
     {
       "type": "wpilib",
       "name": "WPILib roboRIO Debug",
       "request": "launch",
-      "desktop": false
+      "desktop": false,
     }
   ]
 }
